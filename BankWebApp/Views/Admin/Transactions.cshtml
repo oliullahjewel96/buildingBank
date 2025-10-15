@@ -1,0 +1,28 @@
+﻿@model IEnumerable<BankWebApp.Models.BankTransaction>
+@{
+    ViewData["Title"] = "Transactions";
+    Layout = "_AdminLayout";
+}
+<h2>@ViewData["Title"]</h2>
+
+<div class="d-flex mb-3">
+    <input id="transactionFilter" class="form-control me-2" placeholder="Filter by user or reference…" />
+    <button id="btnFilterTransactions" class="btn btn-secondary">Filter</button>
+</div>
+
+<table class="table table-sm" id="transactionsTable">
+    <thead><tr><th>Reference</th><th>User</th><th>Amount</th><th>Date</th></tr></thead>
+    <tbody>
+        @foreach (var t in Model)
+        {
+            <tr>
+                <td>@t.Reference</td>
+                <td>@t.User</td>
+                <td>@t.Amount.ToString("0.00")</td>
+                <td>@t.Date.ToString("yyyy-MM-dd")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="~/js/admin.js"></script>

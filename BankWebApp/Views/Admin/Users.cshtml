@@ -1,0 +1,28 @@
+﻿@model IEnumerable<BankWebApp.Models.AdminUser>
+@{
+    ViewData["Title"] = "Manage Users";
+    Layout = "_AdminLayout";
+}
+<h2>@ViewData["Title"]</h2>
+
+<div class="d-flex mb-3">
+    <input id="userSearch" class="form-control me-2" placeholder="Search users…" />
+    <button id="btnFilterUsers" class="btn btn-primary">Filter</button>
+</div>
+
+<table class="table table-sm" id="usersTable">
+    <thead><tr><th>ID</th><th>Name</th><th>Email</th><th>Status</th></tr></thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Id</td>
+                <td>@u.Name</td>
+                <td>@u.Email</td>
+                <td>@u.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="~/js/admin.js"></script>
