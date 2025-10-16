@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "accountId": 101,
+    "date": "2025-10-03",
+    "description": "Grocery",
+    "amount": -45.20
+  },
+  {
+    "id": 2,
+    "accountId": 101,
+    "date": "2025-10-05",
+    "description": "Salary",
+    "amount": 1200.00
+  },
+  {
+    "id": 3,
+    "accountId": 101,
+    "date": "2025-10-06",
+    "description": "Transfer to 000102",
+    "amount": -300.00
+  }
+]
