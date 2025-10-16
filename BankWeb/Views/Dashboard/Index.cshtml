@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "User Dashboard";
+}
+<link rel="stylesheet" href="/css/site.css" />
+
+<div class="container">
+  <header class="header">
+    <h1>User Dashboard</h1>
+    <!-- nav hidden by default; JS shows it after login -->
+    <nav class="nav" style="display:none">
+      <button id="nav-profile">Profile</button>
+      <button id="nav-accounts">Accounts</button>
+      <button id="nav-transactions">Transactions</button>
+      <button id="nav-transfer">Transfer</button>
+      <button id="nav-logout">Logout</button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Login first -->
+    <section id="panel-login">@Html.Partial("_Login")</section>
+
+    <!-- App panels (hidden until login) -->
+    <section id="panel-profile" hidden>@Html.Partial("_Profile")</section>
+    <section id="panel-accounts" hidden>@Html.Partial("_Accounts")</section>
+    <section id="panel-transactions" hidden>@Html.Partial("_Transactions")</section>
+    <section id="panel-transfer" hidden>@Html.Partial("_Transfer")</section>
+  </main>
+</div>
+
+<script type="module" src="/js/dashboard.js"></script>

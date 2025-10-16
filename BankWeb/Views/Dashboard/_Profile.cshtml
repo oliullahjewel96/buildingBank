@@ -1,0 +1,31 @@
+﻿<div class="card">
+  <h2>Profile</h2>
+
+  <!-- Profile display -->
+  <div id="profile-view" class="stack">
+    <img id="profile-pic" class="avatar" alt="Profile" />
+    <div>
+      <div><strong>Name:</strong> <span id="profile-name"></span></div>
+      <div><strong>Email:</strong> <span id="profile-email"></span></div>
+      <div><strong>Phone:</strong> <span id="profile-phone"></span></div>
+    </div>
+  </div>
+
+  <!-- Profile edit form (hidden by default) -->
+  <form id="profile-form" class="stack" hidden>
+    <label>Name <input id="input-name" required /></label>
+    <label>Email <input id="input-email" type="email" required /></label>
+    <label>Phone <input id="input-phone" required /></label>
+    <div class="row">
+      <button type="submit" class="btn">Save</button>
+      <button type="button" id="btn-cancel-profile" class="btn outline">Cancel</button>
+    </div>
+  </form>
+
+  <!-- Action buttons -->
+  <div class="row">
+    <button id="btn-edit-profile" class="btn">Edit</button>
+  </div>
+
+  <div class="msg" id="profile-msg" hidden></div>
+</div>
