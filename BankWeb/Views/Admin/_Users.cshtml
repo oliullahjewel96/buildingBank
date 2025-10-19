@@ -1,0 +1,40 @@
+﻿<div class="card">
+    <h2>User Management</h2>
+
+    <form id="users-search" class="row" style="gap:.5rem">
+        <input id="q-user" placeholder="Search name, email, or account #">
+        <button type="submit" class="btn">Search</button>
+        <button type="button" id="btn-new-user" class="btn outline">+ New User</button>
+    </form>
+
+    <table class="table" id="tbl-users" style="margin-top:1rem">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Status</th>
+                <th>Accounts</th>
+                <th class="right">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="users-tbody"></tbody>
+    </table>
+
+    <p id="users-msg" class="msg" hidden></p>
+</div>
+
+<!-- Create/Edit -->
+<dialog id="dlg-user">
+    <form id="dlg-user-form" method="dialog" class="stack">
+        <h3 id="dlg-user-title">User</h3>
+        <input id="dlg-user-id" type="hidden" />
+        <label>Name <input id="dlg-user-name" required /></label>
+        <label>Email <input id="dlg-user-email" type="email" required /></label>
+        <label>Phone <input id="dlg-user-phone" required /></label>
+        <menu class="row" style="justify-content:flex-end; gap:.5rem">
+            <button value="cancel" class="btn outline" type="button" id="dlg-user-cancel">Cancel</button>
+            <button value="default" class="btn" id="dlg-user-save" type="submit">Save</button>
+        </menu>
+    </form>
+</dialog>

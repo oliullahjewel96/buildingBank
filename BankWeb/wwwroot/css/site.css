@@ -256,3 +256,20 @@ button, .btn {
 [hidden] {
     display: none !important;
 }
+
+
+#users-tbody td.actions {
+    padding-right: 12px;
+}
+
+    #users-tbody td.actions .btn-row {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: nowrap;
+    }
+
+    #users-tbody td.actions .btn {
+        white-space: nowrap;
+    }

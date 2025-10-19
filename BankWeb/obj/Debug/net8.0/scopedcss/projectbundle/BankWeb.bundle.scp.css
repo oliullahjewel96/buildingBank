@@ -47,3 +47,16 @@ button.accept-policy[b-imqk4vrxnc] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+#users-tbody td.right[b-imqk4vrxnc] {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    flex-wrap: nowrap;
+}
+
+.btn.sm[b-imqk4vrxnc] {
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}

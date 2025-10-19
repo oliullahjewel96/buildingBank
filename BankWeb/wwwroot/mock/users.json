@@ -1,0 +1,26 @@
+[
+  {
+    "id": 101,
+    "name": "Rebecca Page",
+    "email": "rebecca@example.com",
+    "phone": "0400 000 000",
+    "status": "Active",
+    "accounts": [ "300100-01", "300100-02" ]
+  },
+  {
+    "id": 202,
+    "name": "Aisha Khan",
+    "email": "aisha@example.com",
+    "phone": "0400 111 111",
+    "status": "Active",
+    "accounts": [ "300200-01" ]
+  },
+  {
+    "id": 303,
+    "name": "John Smith",
+    "email": "john@example.com",
+    "phone": "0400 222 222",
+    "status": "Deactivated",
+    "accounts": []
+  }
+]

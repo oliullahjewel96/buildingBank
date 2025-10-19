@@ -46,3 +46,16 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+#users-tbody td.right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    flex-wrap: nowrap;
+}
+
+.btn.sm {
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}

@@ -24,6 +24,11 @@ function flash(el, text, success = true) {
     el.hidden = false;
     setTimeout(() => { el.hidden = true; }, 2200);
 }
+function escapeHtml(text) {
+    return (text ?? '').replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[ch]));
+}
 
 async function bootAfterLogin() {
     const nav = document.querySelector('.nav');
@@ -32,7 +37,7 @@ async function bootAfterLogin() {
     showPanel('adminProfile');
 }
 
-/* ----------------- Admin Profile (mock load) ----------------- */
+/* ----------------- Admin Profile ----------------- */
 async function initAdminProfile() {
     const response = await fetch('/mock/admin-me.json');
     const me = await response.json();
@@ -59,12 +64,10 @@ adminEditBtn?.addEventListener('click', () => {
     adminProfileForm.hidden = false;
     adminProfileView.hidden = true;
 });
-
 document.getElementById('admin-btn-cancel-profile')?.addEventListener('click', () => {
     adminProfileForm.hidden = true;
     adminProfileView.hidden = false;
 });
-
 adminProfileForm?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const payload = {
@@ -86,8 +89,156 @@ adminProfileForm?.addEventListener('submit', async (e) => {
     }
 });
 
+/* ----------------- Users Panel ----------------- */
+let adminUsers = [];
+const MOCK_USERS_URL = '/mock/users.json';
 
-async function initUsers() { }
+async function initUsers() {
+    const searchTerm = getValue('q-user').trim();
+    adminUsers = await fetchUsers(searchTerm);
+    renderUsers(adminUsers);
+}
+
+async function fetchUsers(searchTerm) {
+    // Try API first
+    try {
+        const apiUrl = searchTerm
+            ? `/api/admin/users?q=${encodeURIComponent(searchTerm)}`
+            : `/api/admin/users`;
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error('API unavailable');
+        return await response.json();
+    } catch (error) {
+        console.warn('Using mock data instead of API:', error.message);
+    }
+
+    // Fallback: mock data
+    const mockResponse = await fetch(MOCK_USERS_URL);
+    const userList = await mockResponse.json();
+
+    if (!searchTerm) return userList;
+
+    const lowerSearchTerm = searchTerm.toLowerCase();
+    return userList.filter(user =>
+        (user.name || '').toLowerCase().includes(lowerSearchTerm) ||
+        (user.email || '').toLowerCase().includes(lowerSearchTerm) ||
+        (user.accounts || []).some(account => String(account).includes(searchTerm))
+    );
+}
+
+function renderUsers(userList) {
+    const tableBody = document.getElementById('users-tbody');
+    if (!tableBody) return;
+
+    tableBody.innerHTML = '';
+
+    userList.forEach(userData => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${escapeHtml(userData.name || '')}</td>
+          <td>${escapeHtml(userData.email || '')}</td>
+          <td>${escapeHtml(userData.phone || '')}</td>
+          <td>${escapeHtml(userData.status || 'Active')}</td>
+          <td>${(userData.accounts || []).map(account => `<code>${escapeHtml(String(account))}</code>`).join(', ')}</td>
+          <td class="actions">
+            <div class="btn-row">
+              <button class="btn sm outline user-edit" data-id="${userData.id}">Edit</button>
+              <button class="btn sm outline user-reset" data-id="${userData.id}">Reset PW</button>
+              <button class="btn sm outline user-deact" data-id="${userData.id}">Deactivate</button>
+            </div>
+          </td>`;
+        tableBody.appendChild(row);
+    });
+
+    tableBody.querySelectorAll('.user-edit')
+        .forEach(button => button.addEventListener('click', () => openUserDialog(button.dataset.id)));
+    tableBody.querySelectorAll('.user-deact')
+        .forEach(button => button.addEventListener('click', () => deactivateUser(button.dataset.id)));
+    tableBody.querySelectorAll('.user-reset')
+        .forEach(button => button.addEventListener('click', () => resetPassword(button.dataset.id)));
+}
+
+/* ---- search + new user ---- */
+document.getElementById('users-search')?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    await initUsers();
+});
+document.getElementById('btn-new-user')?.addEventListener('click', () => openUserDialog(null));
+
+/* ---- create/edit ---- */
+function openUserDialog(userId) {
+    const dialogElement = document.getElementById('dlg-user');
+    const dialogTitle = document.getElementById('dlg-user-title');
+    const dialogUserId = document.getElementById('dlg-user-id');
+    if (!dialogElement) return;
+
+    if (userId) {
+        const existingUser = adminUsers.find(user => String(user.id) === String(userId));
+        dialogTitle.textContent = 'Edit User';
+        dialogUserId.value = existingUser?.id ?? '';
+        setValue('dlg-user-name', existingUser?.name ?? '');
+        setValue('dlg-user-email', existingUser?.email ?? '');
+        setValue('dlg-user-phone', existingUser?.phone ?? '');
+    } else {
+        dialogTitle.textContent = 'New User';
+        dialogUserId.value = '';
+        setValue('dlg-user-name', '');
+        setValue('dlg-user-email', '');
+        setValue('dlg-user-phone', '');
+    }
+    dialogElement.showModal();
+}
+document.getElementById('dlg-user-cancel')?.addEventListener('click', () => {
+    document.getElementById('dlg-user')?.close();
+});
+document.getElementById('dlg-user-form')?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const userId = getValue('dlg-user-id') || null;
+    const newUserData = {
+        name: getValue('dlg-user-name').trim(),
+        email: getValue('dlg-user-email').trim(),
+        phone: getValue('dlg-user-phone').trim()
+    };
+
+    try {
+        const apiUrl = userId ? `/api/admin/users/${encodeURIComponent(userId)}` : `/api/admin/users`;
+        const method = userId ? 'PUT' : 'POST';
+        const response = await fetch(apiUrl, {
+            method,
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(newUserData)
+        });
+        if (!response.ok) throw new Error('API error');
+        flash(document.getElementById('users-msg'), 'Saved ✅', true);
+    } catch {
+        if (userId) {
+            const index = adminUsers.findIndex(user => String(user.id) === String(userId));
+            if (index >= 0) adminUsers[index] = { ...adminUsers[index], ...newUserData };
+        } else {
+            const newUserId = Date.now();
+            adminUsers.unshift({ id: newUserId, status: 'Active', accounts: [], ...newUserData });
+        }
+        flash(document.getElementById('users-msg'), 'Saved (mock) ✅', true);
+    } finally {
+        document.getElementById('dlg-user')?.close();
+        renderUsers(adminUsers);
+    }
+});
+
+/* ---- deactivate + reset pw ---- */
+async function deactivateUser(userId) {
+    if (!confirm('Deactivate this user?')) return;
+    const targetUser = adminUsers.find(user => String(user.id) === String(userId));
+    if (targetUser) targetUser.status = 'Deactivated';
+    flash(document.getElementById('users-msg'), 'User deactivated (mock) ✅', true);
+    renderUsers(adminUsers);
+}
+async function resetPassword(userId) {
+    flash(document.getElementById('users-msg'), 'Password reset (mock) ✅', true);
+}
+
+/* ----------------- Transactions & Logs stubs ----------------- */
 async function initAdminTransactions() { }
 async function initAuditLogs() { }
 
@@ -102,6 +253,7 @@ document.getElementById('nav-logout')?.addEventListener('click', () => {
     setTimeout(() => { window.location.href = '/Home'; }, 500);
 });
 
+/* ----------------- Login ----------------- */
 document.getElementById('login-form')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const email = getValue('login-email').trim();
@@ -117,4 +269,5 @@ document.getElementById('login-form')?.addEventListener('submit', async (e) => {
     }
 });
 
+/* ----------------- Initial ----------------- */
 showPanel('login');

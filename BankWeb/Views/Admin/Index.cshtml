@@ -25,11 +25,11 @@
 	
 	<!-- Admin panels (hidden until login) -->
 	<section id="panel-adminProfile" hidden>
-			@Html.Partial("_AdminProfile")
+		@Html.Partial("_AdminProfile")
 	</section>
 
 	<section id="panel-users" hidden>
-		<h2>User Management</h2>
+		@Html.Partial("_Users")
 	</section>
 
 	<section id="panel-transactions" hidden>
