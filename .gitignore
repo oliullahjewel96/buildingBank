@@ -1,0 +1,23 @@
+# IDE
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+[Bb]uild/
+artifacts/
+
+# ASP.NET / tooling
+node_modules/
+wwwroot/lib/
+*.swp
+*.tmp
+*.log
+*.cache

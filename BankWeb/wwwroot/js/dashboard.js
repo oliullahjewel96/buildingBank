@@ -170,7 +170,7 @@ document.getElementById('nav-transfer')?.addEventListener('click', () => isLogge
 document.getElementById('nav-logout')?.addEventListener('click', () => {
     isLoggedIn = false;
     flash(document.getElementById('login-msg'), 'Logged out', true);
-    showPanel('login');
+    setTimeout(() => { window.location.href = '/Home'; }, 500);
 });
 
 /* ----------------- Login ----------------- */

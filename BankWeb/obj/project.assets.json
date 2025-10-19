@@ -5566,23 +5566,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Users\\aisha\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\MortalCombat\\BankWeb\\BankWeb\\BankWeb.csproj",
+      "projectUniqueName": "C:\\Users\\aisha\\Source\\Repos\\buildingBank\\BankWeb\\BankWeb.csproj",
       "projectName": "BankWeb",
-      "projectPath": "D:\\C#\\MortalCombat\\BankWeb\\BankWeb\\BankWeb.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\MortalCombat\\BankWeb\\BankWeb\\obj\\",
+      "projectPath": "C:\\Users\\aisha\\Source\\Repos\\buildingBank\\BankWeb\\BankWeb.csproj",
+      "packagesPath": "C:\\Users\\aisha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aisha\\Source\\Repos\\buildingBank\\BankWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5639,7 +5639,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

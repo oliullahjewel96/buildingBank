@@ -64,3 +64,4 @@ wwwroot\mock\accounts.json
 wwwroot\mock\me.json
 wwwroot\mock\transaction-102.json
 wwwroot\mock\transactions-101.json
+wwwroot\js\admin.js

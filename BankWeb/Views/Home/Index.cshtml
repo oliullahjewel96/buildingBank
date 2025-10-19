@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Welcome";
+}
+<link rel="stylesheet" href="/css/site.css" />
+
+<div class="container">
+    <header class="header">
+        <h1>Welcome</h1>
+    </header>
+
+    <main class="main">
+        <section class="card" style="max-width:560px;margin:0 auto;text-align:center">
+            <h2 style="margin-bottom:1rem;">Select a portal to continue</h2>
+            <div class="row" style="justify-content:center;gap:.75rem">
+                <a class="btn" asp-controller="Dashboard" asp-action="Index">User Dashboard</a>
+                <a class="btn outline" asp-controller="Admin" asp-action="Index">Admin Dashboard</a>
+            </div>
+        </section>
+    </main>
+</div>

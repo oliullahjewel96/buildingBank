@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	ViewData["Title"] = "Admin Dashboard";
+}
+<link rel="stylesheet" href="/css/site.css" />
+
+<div class="container">
+  <header class="header">
+	<h1>Admin Dashboard</h1>
+	<!-- nav hidden by default; JS shows it after login -->
+	<nav class="nav" style="display:none">
+	  <button id="nav-adminProfile">Profile</button>
+	  <button id="nav-users">Users</button>
+	  <button id="nav-transactions">Transactions</button>
+	  <button id="nav-logs">Logs</button>
+	  <button id="nav-logout">Logout</button>
+	</nav>
+  </header>
+
+  <main class="main">
+	<!-- Login first -->
+	<section id="panel-login">@Html.Partial("_AdminLogin")</section>
+	
+	<!-- Admin panels (hidden until login) -->
+	<section id="panel-adminProfile" hidden>
+		<h2>Admin Profile</h2>
+	</section>
+
+	<section id="panel-users" hidden>
+		<h2>User Management</h2>
+	</section>
+
+	<section id="panel-transactions" hidden>
+		<h2>Transactions</h2>
+	</section>
+
+	<section id="panel-logs" hidden>
+		<h2>Audit Logs</h2>
+	</section>
+  </main>
+</div>
+
+<script type="module" src="/js/admin.js"></script>
