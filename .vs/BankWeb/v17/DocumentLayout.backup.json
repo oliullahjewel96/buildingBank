@@ -7,12 +7,36 @@
       "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\mock\\admin-me.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\mock\\admin-me.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\mock\\me.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\mock\\me.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\mock\\accounts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\mock\\accounts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\admin\\_adminprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\views\\admin\\_adminprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\dashboard\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\views\\dashboard\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +79,6 @@
       "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\mock\\me.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\mock\\me.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\mock\\accounts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\mock\\accounts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\js\\apiclient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\js\\apiclient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -77,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\dashboard\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|solutionrelative:bankweb\\views\\dashboard\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECC6B510-DC5C-4FA7-A4E4-A90C67481690}|BankWeb\\BankWeb.csproj|c:\\users\\aisha\\source\\repos\\buildingbank\\bankweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -110,84 +118,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BankWeb\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "BankWeb\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T06:14:08.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BankWeb\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BankWeb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T05:42:10.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "admin.js",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\admin.js",
-              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\js\\admin.js",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\admin.js",
-              "RelativeToolTip": "BankWeb\\wwwroot\\js\\admin.js",
-              "ViewState": "AgIAACkAAAAgAAAAAGAwwDUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-19T04:16:08.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dashboard.js",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\dashboard.js",
-              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\js\\dashboard.js",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\dashboard.js",
-              "RelativeToolTip": "BankWeb\\wwwroot\\js\\dashboard.js",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAAAKwAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-14T08:32:31.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "BankWeb\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-14T08:47:58.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_AdminLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
-              "RelativeDocumentMoniker": "BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
-              "RelativeToolTip": "BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-19T04:12:10.88Z",
+              "Title": "admin-me.json",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\mock\\admin-me.json",
+              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\mock\\admin-me.json",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\mock\\admin-me.json",
+              "RelativeToolTip": "BankWeb\\wwwroot\\mock\\admin-me.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T06:48:22.737Z",
               "EditorCaption": ""
             },
             {
@@ -198,14 +141,14 @@
               "RelativeDocumentMoniker": "BankWeb\\Views\\Admin\\Index.cshtml",
               "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "BankWeb\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAACAy8zMzMwHwBsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-19T03:56:13.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "_Login.cshtml",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Login.cshtml",
               "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\_Login.cshtml",
@@ -218,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Program.cs",
               "RelativeDocumentMoniker": "BankWeb\\Program.cs",
@@ -231,84 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BankWeb\\Views\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_Layout.cshtml",
-              "RelativeToolTip": "BankWeb\\Views\\_Layout.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T09:34:27.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BankWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BankWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T04:57:02.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "BankWeb\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "BankWeb\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:15:00.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "BankWeb\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAABAAAAAABwBAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T08:18:35.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "BankWeb\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "BankWeb\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T03:33:06.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "BankWeb\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAAAP0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-14T08:37:31.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "accounts.json",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\mock\\accounts.json",
               "RelativeDocumentMoniker": "BankWeb\\wwwroot\\mock\\accounts.json",
@@ -321,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "me.json",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\mock\\me.json",
               "RelativeDocumentMoniker": "BankWeb\\wwwroot\\mock\\me.json",
@@ -334,7 +200,188 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\js\\admin.js",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "BankWeb\\wwwroot\\js\\admin.js",
+              "ViewState": "AgIAAFwAAAAAAAAAAADwv3gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-19T04:16:08.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dashboard.js",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\dashboard.js",
+              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\js\\dashboard.js",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\dashboard.js",
+              "RelativeToolTip": "BankWeb\\wwwroot\\js\\dashboard.js",
+              "ViewState": "AgIAAC8AAAAAGDMzMzPrvzUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-14T08:32:31.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "BankWeb\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-14T08:47:58.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
+              "RelativeToolTip": "BankWeb\\Views\\Admin\\_AdminLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T04:12:10.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BankWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BankWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T06:14:08.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_AdminProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Admin\\_AdminProfile.cshtml",
+              "RelativeDocumentMoniker": "BankWeb\\Views\\Admin\\_AdminProfile.cshtml",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Admin\\_AdminProfile.cshtml",
+              "RelativeToolTip": "BankWeb\\Views\\Admin\\_AdminProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T06:36:18.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Profile.cshtml",
+              "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\_Profile.cshtml",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Profile.cshtml",
+              "RelativeToolTip": "BankWeb\\Views\\Dashboard\\_Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T08:19:01.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BankWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BankWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T05:42:10.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BankWeb\\Views\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\_Layout.cshtml",
+              "RelativeToolTip": "BankWeb\\Views\\_Layout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T09:34:27.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BankWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BankWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:57:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "BankWeb\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "BankWeb\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T08:15:00.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "BankWeb\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAABAAAAAABwBAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T08:18:35.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BankWeb\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BankWeb\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T03:33:06.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BankWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BankWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAAAP0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-14T08:37:31.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "apiClient.js",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\js\\apiClient.js",
               "RelativeDocumentMoniker": "BankWeb\\wwwroot\\js\\apiClient.js",
@@ -347,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BankWeb\\Views\\Shared\\_Layout.cshtml",
@@ -359,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "transaction-102.json",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\mock\\transaction-102.json",
               "RelativeDocumentMoniker": "BankWeb\\wwwroot\\mock\\transaction-102.json",
@@ -371,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "_Transfer.cshtml",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Transfer.cshtml",
               "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\_Transfer.cshtml",
@@ -383,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "_Transactions.cshtml",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Transactions.cshtml",
               "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\_Transactions.cshtml",
@@ -395,19 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Profile.cshtml",
-              "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\_Profile.cshtml",
-              "ToolTip": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Profile.cshtml",
-              "RelativeToolTip": "BankWeb\\Views\\Dashboard\\_Profile.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T08:19:01.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "_Accounts.cshtml",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\Views\\Dashboard\\_Accounts.cshtml",
               "RelativeDocumentMoniker": "BankWeb\\Views\\Dashboard\\_Accounts.cshtml",
@@ -419,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "transactions-101.json",
               "DocumentMoniker": "C:\\Users\\aisha\\source\\repos\\buildingBank\\BankWeb\\wwwroot\\mock\\transactions-101.json",
               "RelativeDocumentMoniker": "BankWeb\\wwwroot\\mock\\transactions-101.json",

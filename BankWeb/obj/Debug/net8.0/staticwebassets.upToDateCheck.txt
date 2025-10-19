@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\admin.js
 wwwroot\js\apiClient.js
 wwwroot\js\dashboard.js
 wwwroot\js\site.js
@@ -61,7 +62,7 @@ wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\mock\accounts.json
+wwwroot\mock\admin-me.json
 wwwroot\mock\me.json
 wwwroot\mock\transaction-102.json
 wwwroot\mock\transactions-101.json
-wwwroot\js\admin.js
